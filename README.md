@@ -6,7 +6,7 @@ This is the codebase for the paper: "Form Follows Function: Recursive Stem Model
 [Paper](https://arxiv.org/abs/2510.04871)
 
 <p align="center">
-  <img src="https://AlexiaJM.github.io/assets/images/RSM_fig.png" alt="RSM" width="30%">
+  <img src="https://github.com/navidivan/rsm/blob/main/assets/RSM_fig.png" alt="RSM">
 </p>
 
 ### Motivation
@@ -16,18 +16,18 @@ Recursive Stem Model (RSM) is a recursive reasoning model that achieves amazing 
 This work came to be after I learned about the recent innovative Tiny Recursive Model (TRM) and Hierarchical Recursive Model (HRM). This paper opens a new avenue for efficient training of recursive networks and enabling unlimited test time compute to be thrown at a problem. Follow up work will investigate (stay tuned!)
 
 <p align="center">
-  <img src="https://AlexiaJM.github.io/assets/images/SRM_cells.gif" alt="Sudoku" width="30%">
+  <img src="https://github.com/navidivan/rsm/blob/main/assets/SRM%20cells.png" alt="Sudoku">
 </p>
 
 I also offer some interesting discussion/rant about what this is and what it does. Read the paper! In the rant, I talk about developemental biology and annealing ;)
 
 
 <p align="center">
-  <img src="https://AlexiaJM.github.io/assets/images/sudoku_strict_18.gif" alt="Sudoku" width="30%">
+  <img src="https://github.com/navidivan/rsm/blob/main/assets/sudoku_strict_18.gif" alt="Sudoku">
 </p>
 
 <p align="center">
-  <img src="https://AlexiaJM.github.io/assets/images/maze_reasoning_idx_5.gif" alt="Maze" width="30%">
+  <img src="https://github.com/navidivan/rsm/blob/main/assets/maze_reasoning_idx_5.gif" alt="Maze">
 </p>
 
 ### How RSM works
@@ -41,7 +41,7 @@ RSM uses TRM's backbone, but enables efficient training (20x improvement) and hi
 * **Knows When It's Wrong!:** Hellucination, or confidence sounding slop, is a seriuos problem in modern models. By simulating a fixed point process, the RSM only stops when it's reached a viable solution! This gives an uprecedendet verfiable process that can be used as an Oracle. The verification process is extremely simple: if RSM has not settled down into a fixed point, then it's wrong. if it has, it's right.
 
 <p align="center">
-  <img src="https://AlexiaJM.github.io/assets/images/RSM_psuedocode.png" alt="Pseudocode" width="30%">
+  <img src="https://github.com/navidivan/rsm/blob/main/assets/smart_heatmap.png" alt="Maze">
 </p>
 
 
@@ -63,7 +63,7 @@ Installation should take a few minutes. The scripts were tested on Colab with A1
 !python dataset/build_sudoku_dataset.py --output-dir data/sudoku-extreme-1k-aug-all 
 
 # Maze-Hard
-python dataset/build_maze_dataset.py # 1000 examples, 8 augments
+!python dataset/build_maze_dataset.py # 1000 examples, 8 augments
 ```
 
 ## Experiments
