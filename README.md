@@ -3,7 +3,12 @@
 
 This is the codebase for the paper: "Form Follows Function: Recursive Stem Model". RSM is a recursive reasoning approach that achieves amazing scores 97.5% sudoku extreme and 80% on Maze Hard within 1 hour of training by recursively growing a tiny 2.5-5M parameters neural network.
 
+<p align="center">
+  <img src="https://github.com/navidivan/rsm/blob/main/assets/sudoku_strict_18.gif" alt="Sudoku">
+</p>
+
 [Paper](https://arxiv.org/abs/2510.04871)
+
 
 <p align="center">
   <img src="https://github.com/navidivan/rsm/blob/main/assets/RSM_fig.png" alt="RSM">
@@ -22,9 +27,7 @@ This work came to be after I learned about the recent innovative Tiny Recursive 
 I also offer some interesting discussion/rant about what this is and what it does. Read the paper! In the rant, I talk about developemental biology and annealing ;)
 
 
-<p align="center">
-  <img src="https://github.com/navidivan/rsm/blob/main/assets/sudoku_strict_18.gif" alt="Sudoku">
-</p>
+
 
 <p align="center">
   <img src="https://github.com/navidivan/rsm/blob/main/assets/maze_reasoning_idx_5.gif" alt="Maze">
