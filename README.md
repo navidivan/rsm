@@ -1,6 +1,6 @@
 # Form Follows Function: Recursive Stem Model
 
-
+paper: https://arxiv.org/abs/2603.15641
 This is the codebase for the paper: "Form Follows Function: Recursive Stem Model". RSM is a recursive reasoning approach that achieves amazing scores 97.5% sudoku extreme and 80% on Maze Hard within 1 hour of training by recursively growing a tiny 2.5-5M parameters neural network.
 
 <p align="center">
@@ -149,6 +149,19 @@ arch.H_cycles=2 arch.L_cycles=2 \
 ## Reference
 
 If you find our work useful, please consider citing:
+
+```bibtex
+@misc{hakimi2026formfollowsfunctionrecursive,
+      title={Form Follows Function: Recursive Stem Model}, 
+      author={Navid Hakimi},
+      year={2026},
+      eprint={2603.15641},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2603.15641}, 
+}
+```
+
 
 ```bibtex
 @misc{jolicoeurmartineau2025morerecursivereasoningtiny,
